@@ -179,6 +179,10 @@ h4 {
   transition: 0.25s ease;
 }
 
+.btn__resources {
+  margin: 12px;
+}
+
 .btn-primary {
   background: var(--red);
   color: var(--white);
@@ -305,6 +309,88 @@ h4 {
 
 .event-details p + p {
   margin-top: 6px;
+}
+
+.meetings-section {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.meeting-year {
+  color: var(--primary);
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 12px;
+}
+
+.meeting-period {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.meeting-period-title {
+  color: var(--red);
+  font-size: 1.4rem;
+}
+
+.meeting-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 8px 30px rgba(15, 23, 42, 0.05);
+}
+
+.meeting-card-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.meeting-card-header h4 {
+  color: var(--text);
+  font-size: 1.15rem;
+  margin-bottom: 4px;
+}
+
+.meeting-card-header p,
+.meeting-summary,
+.audio-label {
+  color: var(--muted);
+}
+
+.meeting-summary {
+  margin-bottom: 18px;
+}
+
+.meeting-files {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 20px;
+  align-items: center;
+}
+
+.file-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  border-radius: 999px;
+  background: var(--primary);
+  color: var(--white);
+  font-weight: 700;
+  text-align: center;
+}
+
+.file-link:hover {
+  background: var(--primary-dark);
+}
+
+.audio-block audio {
+  width: 100%;
+  margin-top: 8px;
 }
 
 .contact-form {
