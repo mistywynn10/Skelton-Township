@@ -171,12 +171,15 @@ h4 {
 }
 
 .btn {
-  display: inline-block;
+  display: inline-flex;
   padding: 14px 24px;
   border-radius: 999px;
   border: 2px solid transparent;
   font-weight: 700;
   transition: 0.25s ease;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .btn__resources {
@@ -269,6 +272,20 @@ h4 {
 .about__para {
   text-indent: 2em;
   text-align: justify;
+}
+
+.card-assistance {
+  display: flex;
+  flex-direction: column;
+}
+
+.assistance-para {
+  margin-bottom: 24px;
+}
+
+.btn-assistance {
+  margin-top: auto;
+  align-self: center;
 }
 
 .info-list {
