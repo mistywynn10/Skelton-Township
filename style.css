@@ -258,6 +258,19 @@ h4 {
   align-items: start;
 }
 
+.about-grid {
+  align-items: start;
+}
+
+.about__img {
+  border-radius: 12px;
+}
+
+.about__para {
+  text-indent: 2em;
+  text-align: justify;
+}
+
 .info-list {
   list-style: none;
 }
