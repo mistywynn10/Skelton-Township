@@ -41,11 +41,11 @@
         <article class="card">
           <h3>Request Form</h3>
           <form id="request-form" class="contact-form">
-            <input type="text" required placeholder="Your Name" />
-            <input type="text" required placeholder="Your Address" />
-            <input type="tel" required placeholder="Your Phone Number" />
-            <input type="number" placeholder="Account Number, if applicable" />
-            <textarea rows="6" required placeholder="Nature of Request"></textarea>
+            <input type="text" name="user_name" required placeholder="Your Name" />
+            <input type="text" name="user_address" required placeholder="Your Address" />
+            <input type="tel" name="user_phone" required placeholder="Your Phone Number" />
+            <input type="number" name="account_number" placeholder="Account Number, if applicable" />
+            <textarea name="request_message" rows="6" required placeholder="Nature of Request"></textarea>
             <button type="submit" class="btn btn-primary">Send Request</button>
           </form>
         </article>
