@@ -3,20 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Township Trustee | Contact</title>
+  <title>Skelton Township Trustee | Contact</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
-      <a href="index.html" class="logo">Township Trustee</a>
+      <a href="index.html" class="logo">Skelton Township</a>
       <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
       <nav class="nav-links">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="assistance.html">Township Assistance</a>
         <a href="events.html">Community Events</a>
-        <a href="cemeteries.html">Cemeteries</a>
+        <a href="meetings.html">Meetings</a>
         <a href="resources.html">Resources</a>
         <a href="contact.html" class="active">Contact</a>
       </nav>
@@ -27,24 +27,26 @@
     <div class="container narrow">
       <p class="eyebrow">Contact</p>
       <h1>Get in touch with the Trustee Office</h1>
-      <p class="section-text">Use this page for office contact details, directions, and a contact form.</p>
+      <p class="section-text">Fill out the form below to send your request to the Skelton Township Trustee Office.</p>
 
       <div class="cards-grid two-up top-space">
         <article class="card">
           <h3>Office Contact Information</h3>
-          <p><strong>Phone:</strong> (555) 123-4567</p>
-          <p><strong>Email:</strong> trustee@township.gov</p>
-          <p><strong>Address:</strong> 123 Main Street, Your Township, IN 46000</p>
+          <p><strong>Phone:</strong> (812) 897-3387</p>
+          <p><strong>Email:</strong> sheilaseiler14@gmail.com</p>
+          <p><strong>Address:</strong> 944 Mauer Rd., Tennyson, IN 47637</p>
           <p><strong>Hours:</strong> Monday–Friday, 8:00 AM – 4:00 PM</p>
         </article>
 
         <article class="card">
-          <h3>Contact Form</h3>
-          <form class="contact-form">
-            <input type="text" placeholder="Your Name" />
-            <input type="email" placeholder="Your Email" />
-            <textarea rows="6" placeholder="Your Message"></textarea>
-            <button type="submit" class="btn btn-primary">Send Message</button>
+          <h3>Request Form</h3>
+          <form id="request-form" class="contact-form">
+            <input type="text" required placeholder="Your Name" />
+            <input type="text" required placeholder="Your Address" />
+            <input type="tel" required placeholder="Your Phone Number" />
+            <input type="number" placeholder="Account Number, if applicable" />
+            <textarea rows="6" required placeholder="Nature of Request"></textarea>
+            <button type="submit" class="btn btn-primary">Send Request</button>
           </form>
         </article>
       </div>
@@ -52,7 +54,7 @@
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-bottom"><p>© 2026 Township Trustee. All rights reserved.</p></div>
+    <div class="container footer-bottom"><p>© 2026 Skelton Township Trustee. All rights reserved.</p></div>
   </footer>
 
   <script src="app.js"></script>
