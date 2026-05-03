@@ -261,6 +261,82 @@ h4 {
   align-items: start;
 }
 
+.cemetery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.cemetery-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(15, 23, 42, 0.05);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.cemetery-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 36px rgba(15, 23, 42, 0.1);
+}
+
+.cemetery-card img {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.cemetery-card-content {
+  padding: 24px;
+}
+
+.cemetery-card-content h3 {
+  color: var(--primary);
+  margin-bottom: 8px;
+}
+
+.cemetery-card-content p {
+  color: var(--muted);
+}
+
+.cemetery-detail-img {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 18px;
+  margin: 28px 0;
+  border: 1px solid var(--border);
+}
+
+.cemetery-info-box {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 8px 30px rgba(15, 23, 42, 0.05);
+  margin-bottom: 32px;
+}
+
+.burial-list {
+  columns: 2;
+  column-gap: 48px;
+  margin-top: 20px;
+  color: var(--muted);
+}
+
+.burial-list li {
+  break-inside: avoid;
+  margin-bottom: 8px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 24px;
+  color: var(--red);
+  font-weight: 700;
+}
+
 .about-grid {
   align-items: start;
 }
@@ -563,6 +639,14 @@ input[type="number"] {
 
   h1 {
     font-size: 2.3rem;
+  }
+
+    .cemetery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .burial-list {
+    columns: 1;
   }
 }
 
