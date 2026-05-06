@@ -8,7 +8,7 @@ if (menuToggle && navLinks) {
 }
 
 emailjs.init({
-  publicKey: "YOUR_PUBLIC_KEY",
+  publicKey: "9PRTO1LVnojJ3g_2F",
 });
 
 const form = document.getElementById("request-form");
@@ -20,7 +20,7 @@ form.addEventListener("submit", function (e) {
   statusMessage.textContent = "Sending...";
 
   emailjs
-    .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", this)
+    .sendForm("service_5incw5c", "template_stzekkt", this)
     .then(() => {
       statusMessage.textContent = "Your request has been sent successfully.";
       form.reset();
