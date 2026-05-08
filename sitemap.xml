@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://skeltontownshiptrustee.com/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Main Pages -->
+  <url>
+    <loc>https://skeltontownshiptrustee.com/about.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://skeltontownshiptrustee.com/contact.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://skeltontownshiptrustee.com/resources.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://skeltontownshiptrustee.com/assistance.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://skeltontownshiptrustee.com/events.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://skeltontownshiptrustee.com/meetings.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://skeltontownshiptrustee.com/cemeteries.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Individual Cemetery Pages -->
+  <url>
+    <loc>https://skeltontownshiptrustee.com/barnhill-cemetery.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://skeltontownshiptrustee.com/degonia-baker-cemetery.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://skeltontownshiptrustee.com/ellison-cemetery.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+    <url>
+    <loc>https://skeltontownshiptrustee.com/kelley-cemetery.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+    <url>
+    <loc>https://skeltontownshiptrustee.com/mills-smith-cemetery.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+    <url>
+    <loc>https://skeltontownshiptrustee.com/polk-gentry-cemetery.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+    <url>
+    <loc>https://skeltontownshiptrustee.com/roth-cemetery.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
