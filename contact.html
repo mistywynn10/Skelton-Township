@@ -1,74 +1,124 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Skelton Township Trustee | Contact</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class="site-header">
-    <div class="container nav">
-      <a href="index.html" class="logo">Skelton Township</a>
-      <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
-      <nav class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="assistance.html">Township Assistance</a>
-        <a href="events.html">Community Events</a>
-        <a href="meetings.html">Meetings</a>
-        <a href="resources.html">Resources</a>
-        <a href="contact.html" class="active">Contact</a>
-      </nav>
-    </div>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Skelton Township Trustee | Contact" />
+    <meta
+      property="og:description"
+      content="Official township information, cemetery records, assistance resources, and community updates."
+    />
 
-  <main class="page-section">
-    <div class="container narrow">
-      <p class="eyebrow">Contact</p>
-      <h1>Get in touch with the Trustee Office</h1>
-      <p class="section-text">Fill out the form below to send your request to the Skelton Township Trustee Office.</p>
+    <meta property="og:type" content="website" />
 
-      <div class="cards-grid two-up top-space">
-        <article class="card">
-          <h3>Office Contact Information</h3>
-          <p><strong>Phone:</strong> (812) 897-3387</p>
-          <p><strong>Email:</strong> sheilaseiler14@gmail.com</p>
-          <p><strong>Address:</strong> 944 Maurer Rd., Boonville, IN 47601</p>
-          <p><strong>Hours:</strong> By Appointment Only</p>
-        </article>
+    <meta property="og:url" content="https://skeltontownshiptrustee.com/contact.html" />
 
-        <article class="card">
-          <h3>Request Form</h3>
-          <form id="request-form" class="contact-form">
-            <input type="text" name="user_name" required placeholder="Your Name" />
-            <input type="text" name="user_address" required placeholder="Your Address" />
-            <input type="tel" name="user_phone" required placeholder="Your Phone Number" />
-            <input type="email" name="user_email" placeholder="Your Email Address" />
-            <input type="number" name="account_number" placeholder="Account Number, if applicable" />
-            <textarea name="request_message" rows="6" required placeholder="Nature of Request"></textarea>
-            <button type="submit" class="btn btn-primary">Send Request</button>
-            <p id="form-status"></p>
-          </form>
-        </article>
+    <meta
+      property="og:image"
+      content="https://skeltontownshiptrustee.com/assets/Skelton Township.jpg"
+    />
+    <title>Skelton Township Trustee | Contact</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a href="index.html" class="logo">Skelton Township</a>
+        <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="assistance.html">Township Assistance</a>
+          <a href="events.html">Community Events</a>
+          <a href="meetings.html">Meetings</a>
+          <a href="resources.html">Resources</a>
+          <a href="contact.html" class="active">Contact</a>
+        </nav>
       </div>
-    </div>
-  </main>
+    </header>
 
-  <footer class="site-footer">
-    <div class="container footer-bottom"><p>© 2026 Skelton Township Trustee. All rights reserved.</p></div>
-  </footer>
+    <main class="page-section">
+      <div class="container narrow">
+        <p class="eyebrow">Contact</p>
+        <h1>Get in touch with the Trustee Office</h1>
+        <p class="section-text">
+          Fill out the form below to send your request to the Skelton Township
+          Trustee Office.
+        </p>
 
-  <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init({
-        publicKey: "9PRTO1LVnojJ3g_2F",
-      });
-   })();
-</script>
-  <script src="app.js"></script>
-</body>
+        <div class="cards-grid two-up top-space">
+          <article class="card">
+            <h3>Office Contact Information</h3>
+            <p><strong>Phone:</strong> (812) 897-3387</p>
+            <p><strong>Email:</strong> sheilaseiler14@gmail.com</p>
+            <p><strong>Address:</strong> 944 Maurer Rd., Boonville, IN 47601</p>
+            <p><strong>Hours:</strong> By Appointment Only</p>
+          </article>
+
+          <article class="card">
+            <h3>Request Form</h3>
+            <form id="request-form" class="contact-form">
+              <input
+                type="text"
+                name="user_name"
+                required
+                placeholder="Your Name"
+              />
+              <input
+                type="text"
+                name="user_address"
+                required
+                placeholder="Your Address"
+              />
+              <input
+                type="tel"
+                name="user_phone"
+                required
+                placeholder="Your Phone Number"
+              />
+              <input
+                type="email"
+                name="user_email"
+                placeholder="Your Email Address"
+              />
+              <input
+                type="number"
+                name="account_number"
+                placeholder="Account Number, if applicable"
+              />
+              <textarea
+                name="request_message"
+                rows="6"
+                required
+                placeholder="Nature of Request"
+              ></textarea>
+              <button type="submit" class="btn btn-primary">
+                Send Request
+              </button>
+              <p id="form-status"></p>
+            </form>
+          </article>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-bottom">
+        <p>© 2026 Skelton Township Trustee. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "9PRTO1LVnojJ3g_2F",
+        });
+      })();
+    </script>
+    <script src="app.js"></script>
+  </body>
 </html>
